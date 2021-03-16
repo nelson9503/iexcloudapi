@@ -6,6 +6,11 @@ You should register a api token to use it.
 
 ---
 
-## Methods Discovery
+## Quick Start
 
-**func |** getSymbols ( token: `str` ) **->** symbol_list: `list`
+```python
+import iexcloudapi
+
+iex = iexcloudapi.IEXAPI()
+symbolList = iex.get_symbolList()
+```

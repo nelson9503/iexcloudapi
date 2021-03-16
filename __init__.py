@@ -1,1 +1,1 @@
-from .symbols import getSymbols
+from .IEXAPI import IEXAPI
