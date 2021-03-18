@@ -56,7 +56,7 @@ class IEXAPI:
         if not os.path.exists(self.tokenPath):
             self.token = ""
             self.__save_token()
-        with open(self.tokenPath, 'w') as f:
+        with open(self.tokenPath, 'r') as f:
             self.token = f.read()
 
     def __save_token(self):
